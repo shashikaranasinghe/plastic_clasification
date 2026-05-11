@@ -11,7 +11,7 @@ st.write("Upload a plastic item image to identify its recycling category.")
 
 @st.cache_resource
 def load_my_model():
-    return tf.keras.models.load_model('smart_eco_bin_model.h5')
+    return tf.keras.models.load_model('smart_eco_bin_model (1).h5')
 
 model = load_my_model()
 class_names = ['1-PET', '2-HDPE', '3-PVC', '4-LDPE', '5-PP', '6-PS']
